@@ -1,0 +1,12 @@
+{
+  "name": "paysmooth",
+  "private": true,
+  "version": "1.0.0",
+  "description": "PaySmooth - AI Income Smoothing & UPI Expense Tracker for Indian Gig Workers",
+  "scripts": {
+    "start": "(cd server && npm start) & (cd client && npm run dev)",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "stop": "pkill -f 'node index.js' 2>/dev/null; pkill -f 'vite' 2>/dev/null || true"
+  }
+}
